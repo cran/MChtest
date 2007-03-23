@@ -50,8 +50,8 @@ There are several different types of MC designs that may be used for the MCtest.
   \item{pvalue.ci}{confidence interval about the p-value}
 }
 \references{ 
-Fay, M.P., Kim, H-J. and Hachey, M. (2006). Using truncated sequential probability ratio test boundaries 
-for Monte Carlo implementation of hypothesis tests. (unpublished manuscript). 
+Fay, M.P., Kim, H-J. and Hachey, M. (2007). Using truncated sequential probability ratio test boundaries 
+for Monte Carlo implementation of hypothesis tests. (to appear Journal of Computational and Graphical Statistics). 
  }
 \author{M.P. Fay}
 %\note{}

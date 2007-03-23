@@ -23,10 +23,17 @@ function(parms){
         }
     }
     #print(paste("A=",A,"1/A=",1/A,"B=",B))
-    OR<- (p1*(1-p0))/(p0*(1-p1))
-    ALPHA<- log( (1-p0)/(1-p1) )/log(OR)
-    C1<- log(A)/log(OR)
-    C2<- log(B)/log(OR)
+    log.OR<- log((p1*(1-p0))/(p0*(1-p1)))
+    ALPHA<- log( (1-p0)/(1-p1) )/log.OR
+    if (log.OR==0){ stop("p0 cannot equal p1") } 
+    else if (log.OR>0){
+        C1<- log(A)/log.OR
+        C2<- log(B)/log.OR
+    }
+    else if (log.OR<0){
+        C1<- log(B)/log.OR
+        C2<- log(A)/log.OR
+    }
     e0<- 1- pnorm(C1/sqrt(m*ALPHA*(1-ALPHA)))
     e1<-pnorm(  C2/sqrt( m*ALPHA*(1-ALPHA) ) )
     out<-c(m,ALPHA,e0,e1)

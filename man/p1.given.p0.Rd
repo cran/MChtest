@@ -23,8 +23,8 @@ p0.given.p1(p1, Alpha = 0.05, TOL = 10^-9)
 \value{
 either p0 or p1}
 \references{
-Fay, M.P., Kim, H-J. and Hachey, M. (2006). Using truncated sequential probability ratio test boundaries 
-for Monte Carlo implementation of hypothesis tests. (unpublished manuscript). }
+Fay, M.P., Kim, H-J. and Hachey, M. (2007). Using truncated sequential probability ratio test boundaries 
+for Monte Carlo implementation of hypothesis tests. (to appear Journal of Computational and Graphical Statistics).  }
 \author{Michael P. Fay}
 \examples{
 p1.given.p0(.04)

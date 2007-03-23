@@ -50,13 +50,13 @@ A list with the following elements:
 \references{
 Besag, J. and Clifford, P. (1991). Sequential Monte Carlo p-values. Biometrika. 78: 301-304.
 
-Fay, M.P., Kim, H-J. and Hachey, M. (2006). Using truncated sequential probability ratio test boundaries 
-for Monte Carlo implementation of hypothesis tests. (unpublished manuscript). }
+Fay, M.P., Kim, H-J. and Hachey, M. (2007). Using truncated sequential probability ratio test boundaries 
+for Monte Carlo implementation of hypothesis tests. (to appear Journal of Computational and Graphical Statistics). }
 \author{Michael P. Fay}
 %\note{ ~~further notes~~  ~Make other sections like Warning with \section{Warning }{....} ~}
 %\seealso{\code{\link{MCtest}}}
 \examples{
-MCbound("tsprt",c(alpha0=.001,beta0=.01,Nmax=99,p0=.04,p1=.06))
+MCbound("tsprt",c(alpha0=.001,beta0=.01,Nmax=99,p0=.06,p1=.04))
 }
 \keyword{htest}% at least one, from doc/KEYWORDS
 %\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
