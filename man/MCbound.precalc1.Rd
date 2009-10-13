@@ -12,6 +12,7 @@ It is created with the following code,
 \format{
   The format is:
 List of 10
+\itemize{
 \item{S}{         : num [1:10000] 22 22 22 22 22 22 22 22 22 22 ...}
 \item{N}{         : num [1:10000] 22 23 24 25 26 27 28 29 30 31 ...}
 \item{p.value}{ : num [1:10000] 1.000 0.957 0.917 0.880 0.846 ...}
@@ -24,6 +25,7 @@ List of 10
 \item{   ..-}{ attr(*, "names")= chr [1:5] "p0" "p1" "alpha0" "beta0" ...}
 \item{check }{     : num 1}
 \item{ -}{ attr(*, "class")= chr "MCbound"}
+}
 }
 %\details{
 %  ~~ If necessary, more details than the __description__ above ~~

@@ -1,0 +1,20 @@
+citHeader("To cite MChtest in publications use:")
+
+citEntry(entry="Article",
+  title        = "On Using Truncated Sequential Probability Ratio Test Boundaries for Monte Carolo Implentation of Hypothesis Tests",
+  author       = personList(as.person("Michael P. Fay"),
+		   as.person("Hyun-Ju Kim"),
+		   as.person("Mark Hachey")),
+  journal      = "Journal of Computational and Graphical Statistics",
+  year         = "2007",
+  volume       = "16",
+  number       = "4",  
+  pages        = "946--967",
+  
+  textVersion  =
+  paste("Fay, M.P., Kim, H-J., and Hachey, M. (2007).", 
+	"On Using Truncated Sequential Probability Ratio Test Boundaries for Monte Carolo Implentation of Hypothesis Tests",
+	"Journal of Computational and Graphical Statistics 16(4): 946-967."),
+
+  header = ""
+)

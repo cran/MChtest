@@ -5,7 +5,7 @@
 \description{ prints objects of the class MCtest 
 }
 \usage{
-print.MCtest(x,...)
+\method{print}{MCtest}(x,...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

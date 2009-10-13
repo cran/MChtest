@@ -51,7 +51,8 @@ There are several different types of MC designs that may be used for the MCtest.
 }
 \references{ 
 Fay, M.P., Kim, H-J. and Hachey, M. (2007). Using truncated sequential probability ratio test boundaries 
-for Monte Carlo implementation of hypothesis tests. (to appear Journal of Computational and Graphical Statistics). 
+for Monte Carlo implementation of hypothesis tests. Journal of Computational and Graphical 
+Statistics. 16(4):946-967. 
  }
 \author{M.P. Fay}
 %\note{}

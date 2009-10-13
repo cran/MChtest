@@ -34,7 +34,9 @@ A list with the following elements:
 }
 \references{
 Fay, M.P., Kim, H-J. and Hachey, M. (2007). Using truncated sequential probability ratio test boundaries 
-for Monte Carlo implementation of hypothesis tests. (to appear Journal of Computational and Graphical Statistics).  }
+for Monte Carlo implementation of hypothesis tests. Journal of Computational and Graphical 
+Statistics. 16(4):946-967. 
+}
 \author{Michael P. Fay}
 %\seealso{ ~~objects to See Also as \code{\link{help}}, ~~~ }
 \examples{

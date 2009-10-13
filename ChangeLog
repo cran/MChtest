@@ -1,5 +1,13 @@
+Changes from Version 1.0 to Version 1.0-1 (all minor)
+
+1. Added citation to paper, gave full reference in help, and added paper to /inst/doc/ directory.
+2. Changed F to FALSE in findB.design
+3. fixed .Rd files with items
+
+
 Changes from Version 0.9 to Version 1.0
 
 1. There was a mistake in tSPRT.to.Bvalue so that if p1<p0 the Bvalue parameters could not be calculated. This has been fixed.
 2. The MCbound.precalc1 had the parameters p0 and p1 switched. The previous version worked correctly, the parameters where just mislabled. 
 3. Added the URL to the DESCRIPTION file and updated the reference to the paper. The URL points to where a version of the paper will reside.
+

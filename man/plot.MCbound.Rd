@@ -8,7 +8,7 @@ First, it plots the stopping boundary as number of replications (i.e., N)
 vs. number of sucesses (S). Second, it plots the estimated p-values
 vs. the confidence limits minus the estimated p-values (this nicely shows the width of the confidence intervals). }
 \usage{
-plot.MCbound(x, rdigit=4, plimit=500,...)
+\method{plot}{MCbound}(x, rdigit=4, plimit=500,...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
