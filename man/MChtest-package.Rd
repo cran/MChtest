@@ -14,8 +14,8 @@ by Besag and Clifford, 1991). Gives valid p-values and confidence intervals on p
 \tabular{ll}{
 Package: \tab MChtest\cr
 Type: \tab Package\cr
-Version: \tab 1.0-1\cr
-Date: \tab 2009-10-13\cr
+Version: \tab 1.0-2\cr
+Date: \tab 2010-07-30\cr
 License: \tab GPL \cr
 }
 Use \code{\link{MCbound}} to create sequential stopping boundaries. These may take considerable set-up time, but once the 
