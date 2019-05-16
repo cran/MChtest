@@ -1,6 +1,6 @@
 35d3683e63ab6027e7783c8c4c1852f5 *ChangeLog
-215f52f9cd5d0c1d768f3052950ec6a4 *DESCRIPTION
-eb80d4f36595e8c461d8f8685c030140 *NAMESPACE
+19505a5fb2a7e176ac1beed2a7eb50d0 *DESCRIPTION
+379d6bc0ed014c4a5fbbf77dba58cc74 *NAMESPACE
 bbf77a96c6920ad5b978ed1e3c09caa3 *R/Bvalue.to.tSPRT.R
 ff93ad6e1640cc849f5294102c2eddc4 *R/MCbound.BC.R
 0ee47ff8604e8ae8134b8188d9c3dc0a *R/MCbound.Bvalue.R
@@ -24,12 +24,11 @@ ef9cd5ef6bfaa17f88fb11862ea820a5 *R/sorttheta.R
 4aab8b8b4a332a85b8bf42d486cfdf5d *R/sysdata.rda
 795e713fd837525766480b3ea1f0a8a8 *R/tSPRT.to.Bvalue.R
 648dcf791e1088f50868f528f87b4964 *inst/CITATION
-b056ab8a6e5dc9e2ce9ca612bab62367 *inst/doc/BvalueJCGS.pdf
 e7436ab325f7ab953671af38320b0a0d *man/MCbound.Rd
 c66857ce419f4a60e8508b4ddc62cd05 *man/MCbound.precalc1.Rd
 9763581c23445426c87baf1f33e19403 *man/MCbound.type.Rd
-41e36dcf72906c5ac78f0edc91a8656b *man/MChtest-package.Rd
-083d0b85d2899080a9f272f533f28c46 *man/MCtest.Rd
+bba59223da5a9f4a72275b36285f5a94 *man/MChtest-package.Rd
+776da658754d7d032936da673608cb58 *man/MCtest.Rd
 4d36447c0c4d3a712fe567618c5b5d51 *man/MCtest.default.Rd
 ec9e6e2094733311328cd372f81dfe72 *man/beta.ratio.Rd
 31c1748c9df15a32b0d5bb90c512d401 *man/find.ab.Rd

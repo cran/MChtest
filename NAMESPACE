@@ -1,10 +1,12 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
-
 # Export all names
-exportPattern(".")
+exportPattern("^[^\\.]")
 
 # Import all packages listed as Imports or Depends
-import(
-  stats
-)
+import(stats)
+
+
+S3method(plot, MCbound)
+S3method(print, MCtest)
+
+importFrom("graphics", "axis", "lines", "mtext", "par", "plot",
+               "points", "title")

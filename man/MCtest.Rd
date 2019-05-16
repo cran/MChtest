@@ -12,7 +12,8 @@ by defining the statistic function and the resample function.
 }
 \usage{
 MCtest(x, statistic, resample, bound, extreme = "geq", seed = 1234325)
-MCtest.fixed(x, statistic, resample, Nmax, extreme = "geq", conf.level=.99, seed = 1234325)
+MCtest.fixed(x, statistic, resample, Nmax, extreme = "geq", 
+    conf.level=.99, seed = 1234325)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

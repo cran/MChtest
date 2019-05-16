@@ -6,7 +6,7 @@
 Monte Carlo hypothesis tests allowing sequential stopping
 }
 \description{
-The package performs Monte Carlo hypothesis tests. It allows a couple of different sequential 
+Performs Monte Carlo hypothesis tests. It allows a couple of different sequential 
 stopping boundaries (a truncated sequential probability ratio test boundary and a boundary proposed 
 by Besag and Clifford, 1991). Gives valid p-values and confidence intervals on p-values.
 }
@@ -14,8 +14,8 @@ by Besag and Clifford, 1991). Gives valid p-values and confidence intervals on p
 \tabular{ll}{
 Package: \tab MChtest\cr
 Type: \tab Package\cr
-Version: \tab 1.0-2\cr
-Date: \tab 2010-07-30\cr
+Version: \tab 1.0-3\cr
+Date: \tab 2019-05-14\cr
 License: \tab GPL \cr
 }
 Use \code{\link{MCbound}} to create sequential stopping boundaries. These may take considerable set-up time, but once the 
@@ -27,7 +27,7 @@ but takes much fewer if the true p-value is far from the significance level.
 \author{
 Michael P. Fay
 
-Maintainer: Michael Fay <mfay@niaid.nih.gov>
+Maintainer: Michael P. Fay <mfay@niaid.nih.gov>
 }
 \references{
 Besag, J. and Clifford, P. (1991). Sequential Monte Carlo p-values. Biometrika. 78: 301-304.
